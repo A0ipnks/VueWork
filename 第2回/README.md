@@ -102,7 +102,6 @@ app.mount('#app')
 
 ```ts
 // stores/counter.ts
-// stores/counter.ts
 import { defineStore } from 'pinia'
 import { ref } from 'vue'
 
@@ -218,7 +217,6 @@ Vue 3 からは、**名前付きの v-model** に対応しています。これ�
 #### コンポーネント側（従来の書き方）
 
 ```ts
-// MyForm.vue
 <script setup>
 defineProps(['title', 'content'])
 defineEmits(['update:title', 'update:content'])
