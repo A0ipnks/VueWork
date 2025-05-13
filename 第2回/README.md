@@ -254,6 +254,7 @@ const content = defineModel('content')
 
 ---
 
+
 ### `defineModel()` のメリット
 
 | メリット                  | 内容                                       |
